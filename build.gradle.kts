@@ -1,10 +1,11 @@
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.6.10"
+    id("maven-publish")
     `java-library`
 }
 
 group = "com.github.ArtemBotnev"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
